@@ -1,0 +1,19 @@
+FileCompressor/
+├── 📁 backend/                 # Flask API Server
+│   ├── 📁 compression/         # Compression engines
+│   │   ├── pdf_compressor.py   # PDF compression logic
+│   │   ├── image_compressor.py # Image optimization
+│   │   └── document_compressor.py # Document processing
+│   ├── 📁 utils/               # Utility functions
+│   ├── app.py                  # Main Flask application
+│   └── requirements.txt        # Python dependencies
+├── 📁 frontend/                # Web Interface
+│   ├── 📁 css/
+│   │   └── style.css           # Modern styling
+│   ├── 📁 js/
+│   │   └── script.js           # Frontend logic
+│   └── index.html              # Main interface
+├── 🚀 FileCompressorLauncher.bat  # One-click launcher
+├── ⚡ FileCompressor.vbs          # Silent launcher
+├── 🛑 StopFileCompressor.bat     # Application stopper
+└── 📖 README.md                  # This file
