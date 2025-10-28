@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal File Compressor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Universal File Compressor</h1>
+            <p>Compress PDFs, Images, and Documents with ease</p>
+        </header>
+
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-content">
+                <i class="upload-icon">📁</i>
+                <h3>Drag & Drop your files here</h3>
+                <p>or</p>
+                <button class="browse-btn" onclick="document.getElementById('fileInput').click()">
+                    Browse Files
+                </button>
+                <input type="file" id="fileInput" hidden accept=".pdf,.jpg,.jpeg,.png,.gif,.doc,.docx,.txt,.rtf">
+            </div>
+        </div>
+
+        <div class="compression-options">
+            <label for="compressionLevel">Compression Level:</label>
+            <select id="compressionLevel">
+                <option value="low">Low (Better Quality)</option>
+                <option value="medium" selected>Medium (Balanced)</option>
+                <option value="high">High (Smaller Size)</option>
+            </select>
+        </div>
+
+        <div class="file-list" id="fileList"></div>
+
+        <div class="progress-area" id="progressArea" style="display: none;">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-text" id="progressText">Compressing...</div>
+        </div>
+
+        <div class="results" id="results" style="display: none;">
+            <h3>Compression Results</h3>
+            <div id="resultDetails"></div>
+            <button class="download-btn" id="downloadBtn">Download Compressed File</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

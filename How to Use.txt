@@ -1,0 +1,8 @@
+How to Use:
+For One-Click Start: Double-click FileCompressorLauncher.bat
+
+For Hidden Start: Double-click FileCompressor.vbs
+
+To Stop: Double-click StopFileCompressor.bat
+
+For Desktop Shortcut: Double-click CreateShortcut.bat
