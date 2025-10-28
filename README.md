@@ -34,7 +34,7 @@ A powerful, user-friendly application for compressing PDFs, images, and document
 ### For Developers:
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/FileCompressor.git
+git clone https://github.com/manikantaneelam453/FileCompressor.git
 cd FileCompressor
 
 # Install dependencies
